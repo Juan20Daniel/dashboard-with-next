@@ -14,6 +14,12 @@ const menuItems = [
         icon: <IoCalculator size={20} />,
         title:'Counter',
         subTitle: 'Counter Client Side'
+    },
+    {
+        path:'/dashboard/pokemonts',
+        icon: <IoCalculator size={20} />,
+        title:'Pokemons',
+        subTitle: 'App de pokemones'
     }
 ]
 
