@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { IoBrowsersOutline, IoCalculator, IoLogoReact } from "react-icons/io5";
+import { MdFavoriteBorder } from "react-icons/md";
 import { SidebarMenuItem } from "./SidebarMenuItem";
 
 const menuItems = [
@@ -19,6 +20,12 @@ const menuItems = [
         path:'/dashboard/pokemonts',
         icon: <IoCalculator size={20} />,
         title:'Pokemons',
+        subTitle: 'App de pokemones'
+    },
+    {
+        path:'/dashboard/favorites',
+        icon: <MdFavoriteBorder size={20} />,
+        title:'favoritos',
         subTitle: 'App de pokemones'
     }
 ]
